@@ -20,7 +20,5 @@ public class MessageRestController {
             @RequestParam(value = "size", defaultValue = "20") int size) {
 		
 		return new ResponseEntity<>	("It works. User logged: " + accessToken.getPreferredUsername(), HttpStatus.OK);	
-	}
-	
-	
+	}	
 }
