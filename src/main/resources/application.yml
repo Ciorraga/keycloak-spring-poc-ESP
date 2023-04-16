@@ -1,0 +1,13 @@
+spring.application.name: poc-spring-keycloak
+
+server:
+   port: 8080
+   servlet.context-path: /poc-spring-keycloak
+
+keycloak:
+    enabled: true
+    realm: RealmTest
+    auth-server-url: http://localhost:8091
+    resource: clientTest
+    credentials:
+     secret: 4qJL5HrhLiMYOqrwPh6fL0Qpu9jRojid   
